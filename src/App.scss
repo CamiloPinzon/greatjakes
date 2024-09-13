@@ -1,0 +1,18 @@
+@import './styles/_variables.scss';
+
+.container {
+    width: clamp(768px, 80vw, 1680px);
+    margin-right: auto;
+    margin-left: auto;
+
+    &>.close-button {
+        float: right;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: clamp(40px, 4vw, 60px);
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+}

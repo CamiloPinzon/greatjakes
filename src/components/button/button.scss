@@ -1,0 +1,48 @@
+@import "../../styles/_variables.scss";
+
+.button {
+    background-color: $blue-fantastic;
+    color: white;
+    width: 310px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+
+    &:hover {
+        background-color: $green-elliott;
+        border: 1px solid white;
+    }
+
+    &--default {
+        &>.text {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    &--icon {
+        &>.text {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+
+.disabled {
+    cursor: not-allowed;
+    background-color: $dhusar-grey;
+
+    &:hover {
+        border: none;
+        background-color: $dhusar-grey;
+    }
+}

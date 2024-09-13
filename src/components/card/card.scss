@@ -1,0 +1,29 @@
+@import "../../styles/_variables.scss";
+
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 324px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    &--default {
+        align-items: center;
+    }
+
+    &--default:hover {
+        background-color: $green-elliott;
+        align-items: center;
+    }
+
+    &--border {
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    &--border:hover {
+        border: 15px solid $green-elliott;
+    }
+}
