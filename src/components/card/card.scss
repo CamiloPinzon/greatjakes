@@ -14,7 +14,7 @@
 
     &--default:hover {
         background-color: $green-elliott;
-        align-items: center;
+        transition: background-color 0.3s ease-in-out;
     }
 
     &--border {
@@ -24,6 +24,7 @@
 
     &--border:hover {
         border: clamp(5px, 2vw, 15px) solid $green-elliott;
+        transition: border-width 0.3s ease-in-out;
     }
 }
 
