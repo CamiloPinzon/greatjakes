@@ -16,6 +16,7 @@
     &:hover {
         background-color: $green-elliott;
         border: 1px solid white;
+        transition: background-color 0.3s ease-in-out;
     }
 
     &--default {
