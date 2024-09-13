@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 export interface CardProps {
-	variant: "default" | "border";
+	variant?: "default" | "border";
 	children: React.ReactNode;
 }
 

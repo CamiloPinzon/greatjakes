@@ -16,25 +16,25 @@ function App() {
 			<Separator />
 			<section>
 				<CardsContainer>
-					<Card variant="default">
+					<Card>
 						<Button variant="icon">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem,
 							ipsum dolor sit amet consectetur adipisicing elit.
 						</Button>
 					</Card>
-					<Card variant="default">
+					<Card>
 						<Button variant="icon">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem,
 							ipsum dolor sit amet consectetur adipisicing elit.
 						</Button>
 					</Card>
-					<Card variant="default">
-						<Button variant="default">
+					<Card>
+						<Button>
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem,
 							ipsum dolor sit amet consectetur adipisicing elit.
 						</Button>
 					</Card>
-					<Card variant="default">
+					<Card>
 						<Button variant="icon">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem,
 							ipsum dolor sit amet consectetur adipisicing elit.
