@@ -10,13 +10,4 @@
             grid-row: 1 / span 2;
         }
     }
-
-    // Selector for the cards in the first column
-    &> :nth-child(1) {
-        &:first-of-type {
-            &>.card {
-                background-color: black !important;
-            }
-        }
-    }
 }

@@ -10,21 +10,21 @@
 
     &--default {
         align-items: center;
-    }
 
-    &--default:hover {
-        background-color: $green-elliott;
-        transition: background-color 0.3s ease-in-out;
+        &:hover {
+            background-color: $green-elliott;
+            transition: background-color 0.3s ease-in-out;
+        }
     }
 
     &--border {
         align-items: center;
         padding-bottom: clamp(50px, 10vw, 100px);
-    }
 
-    &--border:hover {
-        border: clamp(5px, 2vw, 15px) solid $green-elliott;
-        transition: border-width 0.3s ease-in-out;
+        &:hover {
+            border: clamp(5px, 2vw, 15px) solid $green-elliott;
+            transition: border-width 0.3s ease-in-out;
+        }
     }
 }
 
